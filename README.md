@@ -11,9 +11,7 @@ This repository contains a **Wine Quality Prediction** application built using *
 - [Usage](#usage)
 - [Code Explanation](#code-explanation)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [Output](#Output)
 ---
 
 ## Overview
@@ -47,7 +45,7 @@ Before running the project, ensure you have the following:
   - Pickle (standard library for loading the model)
 
 
-# Usage
+## Usage
 
 1. Launch the app in your browser (usually at `http://localhost:8501`).
 2. Input the following wine properties:
@@ -58,7 +56,7 @@ Before running the project, ensure you have the following:
     - Total Sulfur Dioxide
 3. Click **Submit** to view the predicted wine quality.
 
-# Code Explanation
+## Code Explanation
 
 ## Key Components
 
@@ -91,13 +89,6 @@ if st.button("Submit"):
     st.success(f"Predicted Quality: {y_prediction}")
 ```
 
-### File Uploader (Placeholder):
-Placeholder widget for batch processing:
-
-```python
-data = st.file_uploader("Upload file")  
-```
-
 # Technologies Used
 
 - **Programming Language:** Python
@@ -106,3 +97,6 @@ data = st.file_uploader("Upload file")
     - **Pickle:** To load the pre-trained model.
     - **NumPy & Scikit-learn:** For data processing and model development.
 
+# Output
+![Screenshot (6)](https://github.com/user-attachments/assets/f90b3d40-db5e-436f-90c2-1ea46ad54d8c)
+![Screenshot (7)](https://github.com/user-attachments/assets/26e954e9-2e8c-418e-9360-07ea512241a3)
